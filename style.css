@@ -1,0 +1,20 @@
+h2{
+    font-size: 40px;
+
+}
+.btn-warning:hover{
+background-color: lightcoral;
+}
+canvas{
+    animation-name: Example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes Example{
+    from{
+        box-shadow:1px 1px 50px chocolate;
+    }
+    to{
+        box-shadow: 1px 1px 50px coral;
+    }
+}
